@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@color/bgColor"
+    android:paddingLeft="15dp">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/user_profile_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/profile_avatar"
+        app:civ_border_width="2dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="center"
+        app:civ_border_color="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/user_emailID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/aileron_thin"
+        android:letterSpacing="0.03"
+        android:text="email id" />
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/user_emailID"
+        android:fontFamily="@font/aileron_bold"
+        android:text="User Name"
+        android:textColor="@color/white"
+        android:layout_marginBottom="6dp"
+        android:layout_marginStart="20dp"
+        android:textSize="20sp" />
+
+</RelativeLayout>

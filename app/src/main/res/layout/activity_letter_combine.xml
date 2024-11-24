@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <org.opencv.android.JavaCameraView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frame_Surface"/>
+
+    <LinearLayout
+        android:background="@color/bgColor"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/top_linear_layout"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp"
+            android:fontFamily="@font/aileron_regular"
+            android:id="@+id/change_text"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/bottom_linear_layout"
+        android:background="@color/bgColor"
+        android:padding="12dp"
+        android:gravity="center"
+        android:weightSum="3"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:id="@+id/add_button"
+            android:text="Add Letters"
+            android:textSize="14sp"
+            android:layout_marginEnd="6dp"
+            android:fontFamily="@font/questrial_regular"
+            android:letterSpacing="0.02"
+            android:background="@drawable/ripple_signin_btn"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:id="@+id/text_speech_button"
+            android:text="Read"
+            android:layout_marginEnd="6dp"
+            android:drawableStart="@drawable/voice_b"
+            android:paddingStart="16dp"
+            android:paddingEnd="0dp"
+            android:textSize="14sp"
+            android:fontFamily="@font/questrial_regular"
+            android:letterSpacing="0.02"
+            android:background="@drawable/ripple_signin_btn"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/clear_button"
+            android:text="Clear"
+            android:drawableStart="@drawable/close"
+            android:paddingStart="16dp"
+            android:paddingEnd="0dp"
+            android:textSize="14sp"
+            android:fontFamily="@font/questrial_regular"
+            android:letterSpacing="0.02"
+            android:background="@drawable/ripple_signin_btn"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+</FrameLayout>

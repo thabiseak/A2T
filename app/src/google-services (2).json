@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "725777519248",
+    "project_id": "action-to-talk",
+    "storage_bucket": "action-to-talk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725777519248:android:3dd1b4879c889168333e15",
+        "android_client_info": {
+          "package_name": "com.android.action_to_talk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2n-b_VpbiwqT_m4BA_rijVxS2QxcL5qU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

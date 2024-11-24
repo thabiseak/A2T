@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#ffffff</color>
+    <color name="purple_500">#ffffff</color>
+    <color name="purple_700">#ffffff</color>
+    <color name="teal_200">#ffffff</color>
+    <color name="teal_700">#ffffff</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#ffffff</color>
+
+    <color name="bgColor">#01083E</color>
+    <color name="cardColor">#ddeef9</color>
+    <color name="circleColor">#ffffff</color>
+    <color name="iconOffColor">#ffffff</color>
+    <color name="blockColor1">#ffffff</color>
+    <color name="textOffColor">#ffffff</color>
+
+</resources>

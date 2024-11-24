@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">A2T</string>
+    <string name="prompt_email">Enter Email Address</string>
+    <string name="prompt_password">Enter Password</string>
+    <string name="action_sign_in_short">Sign In</string>
+    <string name="forgotpass">forgot Password</string>
+    <string name="signup">Sign Up</string>
+    <string name="displayName">Enter Your Name</string>
+    <string name="forgot_password">Enter the email address associated with your account:</string>
+    <string name="tryanother">Try a different email</string>
+    <string name="about_sign1">Sign language, any means of communication through bodily movements, especially of the hands and arms, used when spoken communication is impossible or not desirable. The practice is probably older than speech. Sign language may be as coarsely expressed as mere grimaces, shrugs, or pointings; or it may employ a delicately nuanced combination of coded manual signals reinforced by facial expression and perhaps augmented by words spelled out in a manual alphabet. Wherever vocal communication is impossible, as between speakers of mutually unintelligible languages or when one or more would-be communicators is deaf, sign language can be used to bridge the gap.</string>
+    <string name="about_sign2"><b>1. Sign language is a natural and visual form of language that uses movements and expression to convey meaning between people.</b> Sign language is a non-verbal language that Deaf persons exclusively count on to connect with their social environment. It is based on visual cues through the hands. \n\n<b>2. No person or committee invented sign language.</b> No one knows for sure when the first Deaf person tried out visual gestures to express themselves. Many sources agree that using hand gestures and body language is one of the oldest and most basic forms of human communication, and it has been around just as long as spoken language. \n\n<b>3. Different countries have different sign languages.</b> There are several thousand spoken languages across the world and all are different from each other in one sense or the other. In the same way, sign language has hand gestures and visual representations of many different types.  \n\n<b>4. Sign language is different from spoken language.</b> Every language, whether verbal or non-verbal, has their own elements and functions and differ from each other in how they are used. \n\n<b>5. Sign languages have their own grammar.</b> It is said that sign languages are the manual representation of spoken languages, but that’s not true. In reality, both language modes have their own grammar structure, vocabulary, and syntax. The grammars of these visual and gesture-based sign languages are unlike the grammars of sound-based or written languages. \n\n<b>6. People learn sign languages the same way they learn spoken languages.</b>  People learn how to do signs from a young age and as natural as they do with any spoken languages.  Learn how to better express their signs. \n\n<b>7. Sign language is a visual language.</b> We all already know this fact, but it’s important to emphasise. Sign language may be like any other language in many ways and should be valued as such, but it’s also different.</string>
+    <string name="Sign_for_A">A</string>
+    <string name="about_sign_language">About Sign Language</string>
+    <string name="so_you_must_now_be_wondering_what_exactly_is_this_sign_language">So, you must now be wondering, what exactly is this sign language?</string>
+    <string name="sign_languages_that_are_used_in_this_app">Sign Languages that are used in this app</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="e">E</string>
+    <string name="f">F</string>
+    <string name="g">G</string>
+    <string name="h">H</string>
+    <string name="i">I</string>
+    <string name="j">J</string>
+    <string name="k">K</string>
+    <string name="l">L</string>
+    <string name="m">M</string>
+    <string name="n">N</string>
+    <string name="o">O</string>
+    <string name="p">P</string>
+    <string name="q">Q</string>
+    <string name="r">R</string>
+    <string name="s">S</string>
+    <string name="t">T</string>
+    <string name="u">U</string>
+    <string name="v">V</string>
+    <string name="w">W</string>
+    <string name="x">X</string>
+    <string name="y">Y</string>
+    <string name="z">Z</string>
+    <string name="a_description">Sign of image A</string>
+    <string name="b_description">Sign of image B</string>
+    <string name="c_description">Sign of image C</string>
+    <string name="d_description">Sign of image D</string>
+    <string name="e_description">Sign of image E</string>
+    <string name="f_description">Sign of image F</string>
+    <string name="g_description">Sign of image G</string>
+    <string name="h_description">Sign of image H</string>
+    <string name="i_description">Sign of image I</string>
+    <string name="j_description">Sign of image J</string>
+    <string name="k_description">Sign of image K</string>
+    <string name="l_description">Sign of image L</string>
+    <string name="m_description">Sign of image M</string>
+    <string name="n_description">Sign of image N</string>
+    <string name="o_description">Sign of image O</string>
+    <string name="p_description">Sign of image P</string>
+    <string name="q_description">Sign of image Q</string>
+    <string name="r_description">Sign of image R</string>
+    <string name="s_description">Sign of image S</string>
+    <string name="t_description">Sign of image T</string>
+    <string name="u_description">Sign of image U</string>
+    <string name="v_description">Sign of image V</string>
+    <string name="w_description">Sign of image W</string>
+    <string name="x_description">Sign of image X</string>
+    <string name="y_description">Sign of image Y</string>
+    <string name="z_description">Sign of image Z</string>
+    <string name="to">to</string>
+    <string name="from">from</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string name="enter_text_here">Enter text here...</string>
+    <string name="translate_to_sign">Translate to SIgn</string>
+    <string name="translate_your_text_to_sign">Translate your text to Sign</string>
+    <string name="enter_text">Enter Text</string>
+    <string name="back_to_main_page">back_to_main_page</string>
+</resources>

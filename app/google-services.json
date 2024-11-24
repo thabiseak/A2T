@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "839933530631",
+    "firebase_url": "https://finder-e6406-default-rtdb.firebaseio.com",
+    "project_id": "signlanguagerecognition-8fd86",
+    "storage_bucket": "signlanguagerecognition-8fd86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839933530631:android:ccfe3cda09611c1a4950a2",
+        "android_client_info": {
+          "package_name": "com.example.imagepro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839933530631-3aj9anpqq6pvblr8mj87q8v9jrt25dvg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.imagepro",
+            "certificate_hash": "8b983f4a73e4b57a4a023275a2fb47f903646823"
+          }
+        },
+        {
+          "client_id": "839933530631-d51ovc4d62aeudpdgpgrtovm5vts2umq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_lEm8N3ue5Ufdkdk0g3_F9aAVHyBLF5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839933530631-d51ovc4d62aeudpdgpgrtovm5vts2umq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/homepage"/>
+        <item
+            android:id="@+id/nav_signLanguages"
+            android:title="All Sign Languages"
+            android:icon="@drawable/fingers"/>
+
+        <item
+            android:id="@+id/nav_translator"
+            android:title="Translator"
+            android:icon="@drawable/translation"/>
+
+        <item
+            android:id="@+id/nav_how_to_use"
+            android:title="How to Use"
+            android:icon="@drawable/handbook"/>
+
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="Profile"
+                    android:icon="@drawable/user"/>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="Logout"
+                    android:icon="@drawable/logout"/>
+
+            </group>
+        </menu>
+
+    </item>
+</menu>

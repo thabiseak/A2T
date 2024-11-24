@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    tools:context=".activities.HowToUse">
+
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. First login using your email id and password"
+                android:textColor="@color/white"
+                android:fontFamily="@font/aileron_regular"
+                android:textSize="16sp"
+                android:letterSpacing="0.03"/>
+            
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="320dp"
+                android:src="@drawable/login"
+                android:padding="4dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. From main screen you can recognize the sign language in real-time as well as you can add sign language and convert that text into voice. Also you can access the different features from Drawer layout"
+                android:justificationMode="inter_word"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/aileron_regular"
+                android:textSize="16sp"
+                android:letterSpacing="0.03"
+                tools:targetApi="o" />
+
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="320dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/main_screen"
+                    android:padding="4dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"/>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="320dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/drawer"
+                    android:layout_marginStart="6dp"
+                    android:padding="4dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. From the Real-time sign language, you can recognize the sign language"
+                android:justificationMode="inter_word"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/aileron_regular"
+                android:textSize="16sp"
+                android:letterSpacing="0.03"
+                tools:targetApi="o" />
+
+            <LinearLayout
+                android:weightSum="3"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/real_sign_a"
+                    android:padding="4dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"/>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/real_sign_b"
+                    android:layout_marginStart="6dp"
+                    android:padding="4dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"/>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/real_sign_c"
+                    android:layout_marginStart="6dp"
+                    android:padding="4dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. From the Text to Voice Sign Language, you can recognize the sign language, add the sign language as text and convert them into voice"
+                android:justificationMode="inter_word"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/aileron_regular"
+                android:textSize="16sp"
+                android:letterSpacing="0.03"
+                tools:targetApi="o" />
+
+            <LinearLayout
+                android:weightSum="3"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/combine_a"
+                    android:padding="4dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"/>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/combine_b"
+                    android:layout_marginStart="6dp"
+                    android:padding="4dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"/>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/combine_c"
+                    android:layout_marginStart="6dp"
+                    android:padding="4dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. From the Translation tab, you can translate any text to any language."
+                android:justificationMode="inter_word"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/aileron_regular"
+                android:textSize="16sp"
+                android:letterSpacing="0.03"
+                tools:targetApi="o" />
+
+            <LinearLayout
+                android:weightSum="3"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/translate_a"
+                    android:padding="4dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"/>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/translate_b"
+                    android:layout_marginStart="6dp"
+                    android:padding="4dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"/>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/translate_c"
+                    android:layout_marginStart="6dp"
+                    android:padding="4dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="3"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/translate_d"
+                    android:padding="4dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"/>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/translate_e"
+                    android:layout_marginStart="6dp"
+                    android:padding="4dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"/>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/translate_f"
+                    android:layout_marginStart="6dp"
+                    android:padding="4dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"/>
+
+            </LinearLayout>
+            
+        </LinearLayout>
+        
+    </ScrollView>
+    
+</androidx.constraintlayout.widget.ConstraintLayout>

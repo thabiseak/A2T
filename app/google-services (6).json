@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "449147267838",
+    "project_id": "a2t-85bf4",
+    "storage_bucket": "a2t-85bf4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449147267838:android:7deccb0eefaaf1acd353af",
+        "android_client_info": {
+          "package_name": "com.example.imagepro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzm5xFZY7R9YFo-9dkFlNbgptj1X-3RgU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
