@@ -25,9 +25,10 @@ We are using the following steps to create the real-time sign language translato
 4. Convert the gestures into text using the pre-trained model.
 5. Display the text on the screen.
 ### Technologies Used
-1. OpenCV
-2. TensorFlow
-3. Python
+1. Java
+2. OpenCV
+3. TensorFlow
+4. Python
 ### Future Scope
 We can improve the accuracy of the system by training the model on a larger dataset. We can add more gestures to the system to recognize more gestures. We can add a voice output feature to the system to read out the text. We can add a translation feature to the system to translate the text into different languages.
 ### Conclusion
