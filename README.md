@@ -37,6 +37,8 @@ We are using the following steps to create the real-time sign language translato
 We can improve the accuracy of the system by training the model on a larger dataset. We can add more gestures to the system to recognize more gestures. We can add a voice output feature to the system to read out the text. We can add a translation feature to the system to translate the text into different languages.
 ### Conclusion
 We have created a real-time sign language translator using a webcam. The system is able to capture the sign language gestures made by the user and convert them into text. The system is able to recognize multiple gestures and convert them into text. The system is able to recognize gestures for alphabets, numbers, and basic words. The system is able to display the text on the screen. The system is able to capture the gestures in real-time and convert them into text in real-time.
+
+To access the models and view the dataset view used for the model training [click here](https://github.com/keerththansana/sign_language_recognition) 
 ### References
 1. https://www.tensorflow.org/
 2. https://opencv.org/
