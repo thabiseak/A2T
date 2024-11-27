@@ -13,11 +13,6 @@ The objective of this project is to create a real-time sign language translator 
 To create a real-time sign language translator using a webcam. The system should be able to capture the sign language gestures made by the user and convert them into text. The system should be able to recognize multiple gestures and convert them into text. The system should be able to recognize gestures for alphabets, numbers, and basic words.
 ### Solution
 We are creating a real-time sign language translator using a webcam. We are using the OpenCV library to capture the gestures made by the user. We are using the TensorFlow library to recognize the gestures and convert them into text. We are using a pre-trained model to recognize the gestures for alphabets, numbers, and basic words.
-### Implementation
-We are using the following steps to create the real-time sign language translator:
-1. Capture the gestures made by the user using a webcam.
-2. Pre-process the gestures to
-
 ### Problem Statement
 To create a real-time sign language translator using a webcam. The system should be able to capture the sign language gestures made by the user and convert them into text. The system should be able to recognize multiple gestures and convert them into text. The system should be able to recognize gestures for alphabets, numbers, and basic words.
 ### Solution
