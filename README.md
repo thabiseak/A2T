@@ -29,6 +29,10 @@ We are using the following steps to create the real-time sign language translato
 2. OpenCV
 3. TensorFlow
 4. Python
+### Tools Used 
+1. Android Studio
+2. Firebase
+3. PyCharm
 ### Future Scope
 We can improve the accuracy of the system by training the model on a larger dataset. We can add more gestures to the system to recognize more gestures. We can add a voice output feature to the system to read out the text. We can add a translation feature to the system to translate the text into different languages.
 ### Conclusion
